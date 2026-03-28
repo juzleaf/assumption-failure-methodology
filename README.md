@@ -97,6 +97,12 @@ I believe the parallel branching version would be significantly more powerful. B
 ## Install
 
 ```bash
+npx skills add juzleaf/assumption-failure-methodology
+```
+
+Or manually:
+
+```bash
 mkdir -p ~/.claude/skills/afm
 curl -o ~/.claude/skills/afm/SKILL.md \
   https://raw.githubusercontent.com/juzleaf/assumption-failure-methodology/main/SKILL.md
